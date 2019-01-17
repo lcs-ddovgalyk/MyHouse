@@ -43,23 +43,23 @@ public class Tree
         // put your code here
         base.makeVisible();
         base.changeColor("brown");
-        base.moveHorizontal(100);
-        base.moveVertical(100);
+        base.moveHorizontal(x);
+        base.moveVertical(y);
         
         leafes.makeVisible();
         leafes.changeSize(45, 60);
-        leafes.moveHorizontal(124);
-        leafes.moveVertical(100);
+        leafes.moveHorizontal(x+24);
+        leafes.moveVertical(y);
         
         leafesmiddle.makeVisible();
         leafesmiddle.changeSize(40,55);
-        leafesmiddle.moveHorizontal(124);
-        leafesmiddle.moveVertical(85);
+        leafesmiddle.moveHorizontal(x+24);
+        leafesmiddle.moveVertical(y-15);
         
         leafestop.makeVisible();
         leafestop.changeSize(35,50);
-        leafestop.moveHorizontal(124);
-        leafestop.moveVertical(70);
+        leafestop.moveHorizontal(x+24);
+        leafestop.moveVertical(y-25);
         
         
         
