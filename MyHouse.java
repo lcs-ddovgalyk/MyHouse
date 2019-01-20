@@ -17,6 +17,7 @@ public class MyHouse
     private Square door1;
     private Square window;
     private Circle ground;
+    private Cloud cloud1;
     /**
      * The job of a constructor is to initialize all the instance variables.
      */
@@ -31,6 +32,9 @@ public class MyHouse
         door1 = new Square();
         window = new Square();
         ground = new Circle();
+        cloud1 = new Cloud(100,0);
+        cloud1 = new Cloud(170,70);
+        cloud1 = new Cloud(330,40);
         drawHouse();
     }
 

@@ -20,6 +20,12 @@ public class Tree
     private Triangle leafesmiddle;
     private Square base;
     
+    /**
+     * Draw a tree
+     * 
+     * @param x     the horizontal position of the tree
+     * @param y     the vertical position of the tree
+     */
     public Tree(int x, int y)
     {
         // initialise instance variables
